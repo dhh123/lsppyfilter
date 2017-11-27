@@ -3,18 +3,18 @@
 /* this ALWAYS GENERATED file contains the definitions for the interfaces */
 
 
- /* File created by MIDL compiler version 7.00.0499 */
-/* at Thu Jan 10 14:36:00 2008
+ /* File created by MIDL compiler version 8.00.0603 */
+/* at Tue Nov 28 01:44:33 2017
  */
-/* Compiler settings for .\ILspPyFilter.idl:
-    Oicf, W1, Zp8, env=Win32 (32b run)
+/* Compiler settings for ILspPyFilter.idl:
+    Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0603 
     protocol : dce , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
     VC __declspec() decoration level: 
          __declspec(uuid()), __declspec(selectany), __declspec(novtable)
          DECLSPEC_UUID(), MIDL_INTERFACE()
 */
-//@@MIDL_FILE_HEADING(  )
+/* @@MIDL_FILE_HEADING(  ) */
 
 #pragma warning( disable: 4049 )  /* more than 64k source lines */
 
@@ -48,6 +48,7 @@
 #ifndef __ILspPyFilter_FWD_DEFINED__
 #define __ILspPyFilter_FWD_DEFINED__
 typedef interface ILspPyFilter ILspPyFilter;
+
 #endif 	/* __ILspPyFilter_FWD_DEFINED__ */
 
 
@@ -104,6 +105,7 @@ EXTERN_C const IID IID_ILspPyFilter;
         
     };
     
+    
 #else 	/* C style interface */
 
     typedef struct ILspPyFilterVtbl
@@ -113,8 +115,8 @@ EXTERN_C const IID IID_ILspPyFilter;
         HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
             ILspPyFilter * This,
             /* [in] */ REFIID riid,
-            /* [iid_is][out] */ 
-            __RPC__deref_out  void **ppvObject);
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
         
         ULONG ( STDMETHODCALLTYPE *AddRef )( 
             ILspPyFilter * This);

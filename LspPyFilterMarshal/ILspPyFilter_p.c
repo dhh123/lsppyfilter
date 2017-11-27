@@ -3,20 +3,20 @@
 /* this ALWAYS GENERATED file contains the proxy stub code */
 
 
- /* File created by MIDL compiler version 7.00.0499 */
-/* at Thu Jan 10 14:36:00 2008
+ /* File created by MIDL compiler version 8.00.0603 */
+/* at Tue Nov 28 01:44:33 2017
  */
-/* Compiler settings for .\ILspPyFilter.idl:
-    Oicf, W1, Zp8, env=Win32 (32b run)
+/* Compiler settings for ILspPyFilter.idl:
+    Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0603 
     protocol : dce , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
     VC __declspec() decoration level: 
          __declspec(uuid()), __declspec(selectany), __declspec(novtable)
          DECLSPEC_UUID(), MIDL_INTERFACE()
 */
-//@@MIDL_FILE_HEADING(  )
+/* @@MIDL_FILE_HEADING(  ) */
 
-#if !defined(_M_IA64) && !defined(_M_AMD64)
+#if !defined(_M_IA64) && !defined(_M_AMD64) && !defined(_ARM_)
 
 
 #pragma warning( disable: 4049 )  /* more than 64k source lines */
@@ -44,7 +44,7 @@
 #include "rpcproxy.h"
 #ifndef __RPCPROXY_H_VERSION__
 #error this stub requires an updated version of <rpcproxy.h>
-#endif // __RPCPROXY_H_VERSION__
+#endif /* __RPCPROXY_H_VERSION__ */
 
 
 #include "ILspPyFilter_h.h"
@@ -74,7 +74,7 @@ typedef struct _ILspPyFilter_MIDL_EXPR_FORMAT_STRING
     } ILspPyFilter_MIDL_EXPR_FORMAT_STRING;
 
 
-static RPC_SYNTAX_IDENTIFIER  _RpcTransferSyntax = 
+static const RPC_SYNTAX_IDENTIFIER  _RpcTransferSyntax = 
 {{0x8A885D04,0x1CEB,0x11C9,{0x9F,0xE8,0x08,0x00,0x2B,0x10,0x48,0x60}},{2,0}};
 
 
@@ -97,7 +97,7 @@ extern const USER_MARSHAL_ROUTINE_QUADRUPLE UserMarshalRoutines[ WIRE_MARSHAL_TA
 #endif
 
 #if !(TARGET_IS_NT50_OR_LATER)
-#error You need a Windows 2000 or later to run this stub because it uses these features:
+#error You need Windows 2000 or later to run this stub because it uses these features:
 #error   /robust command line switch.
 #error However, your C/C++ compilation flags indicate you intend to run this app on earlier systems.
 #error This app will fail with the RPC_X_WRONG_STUB_VERSION error.
@@ -490,7 +490,7 @@ static const MIDL_STUB_DESC Object_StubDesc =
     1, /* -error bounds_check flag */
     0x50002, /* Ndr library version */
     0,
-    0x70001f3, /* MIDL Version 7.0.499 */
+    0x800025b, /* MIDL Version 8.0.603 */
     0,
     UserMarshalRoutines,
     0,  /* notify & notify_flag routine table */
@@ -500,13 +500,13 @@ static const MIDL_STUB_DESC Object_StubDesc =
     0
     };
 
-const CInterfaceProxyVtbl * _ILspPyFilter_ProxyVtblList[] = 
+const CInterfaceProxyVtbl * const _ILspPyFilter_ProxyVtblList[] = 
 {
     ( CInterfaceProxyVtbl *) &_ILspPyFilterProxyVtbl,
     0
 };
 
-const CInterfaceStubVtbl * _ILspPyFilter_StubVtblList[] = 
+const CInterfaceStubVtbl * const _ILspPyFilter_StubVtblList[] = 
 {
     ( CInterfaceStubVtbl *) &_ILspPyFilterStubVtbl,
     0
@@ -538,7 +538,7 @@ const ExtendedProxyFileInfo ILspPyFilter_ProxyFileInfo =
     (PCInterfaceProxyVtblList *) & _ILspPyFilter_ProxyVtblList,
     (PCInterfaceStubVtblList *) & _ILspPyFilter_StubVtblList,
     (const PCInterfaceName * ) & _ILspPyFilter_InterfaceNamesList,
-    0, // no delegation
+    0, /* no delegation */
     & _ILspPyFilter_IID_Lookup, 
     1,
     2,
@@ -553,5 +553,5 @@ const ExtendedProxyFileInfo ILspPyFilter_ProxyFileInfo =
 #endif
 
 
-#endif /* !defined(_M_IA64) && !defined(_M_AMD64)*/
+#endif /* !defined(_M_IA64) && !defined(_M_AMD64) && !defined(_ARM_) */
 

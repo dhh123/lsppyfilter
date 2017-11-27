@@ -1,22 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LspInstall", "LspInstall\LspInstall.vcproj", "{DD345209-CDC4-4BC7-A66E-8C9F07A19C79}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BCA094D3-D00E-44E3-8A1B-41760BDA39C0} = {BCA094D3-D00E-44E3-8A1B-41760BDA39C0}
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LspInstall", "LspInstall\LspInstall.vcxproj", "{DD345209-CDC4-4BC7-A66E-8C9F07A19C79}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LspPyFilter", "LspPyFilter\LspPyFilter.vcproj", "{DAA66CCA-5C6B-4EC2-B09A-584B3931CFF6}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BCA094D3-D00E-44E3-8A1B-41760BDA39C0} = {BCA094D3-D00E-44E3-8A1B-41760BDA39C0}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LspPyFilter", "LspPyFilter\LspPyFilter.vcxproj", "{DAA66CCA-5C6B-4EC2-B09A-584B3931CFF6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LspPyFilterMarshal", "LspPyFilterMarshal\LspPyFilterMarshal.vcproj", "{BCA094D3-D00E-44E3-8A1B-41760BDA39C0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LspPyFilterMarshal", "LspPyFilterMarshal\LspPyFilterMarshal.vcxproj", "{BCA094D3-D00E-44E3-8A1B-41760BDA39C0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LspPyFilterProvider", "LspPyFilterProvider\LspPyFilterProvider.vcproj", "{A13A026A-3FF1-4A28-9507-4B8A5E752C8E}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BCA094D3-D00E-44E3-8A1B-41760BDA39C0} = {BCA094D3-D00E-44E3-8A1B-41760BDA39C0}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LspPyFilterProvider", "LspPyFilterProvider\LspPyFilterProvider.vcxproj", "{A13A026A-3FF1-4A28-9507-4B8A5E752C8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2F5DC60-6A25-4D94-8CF0-5B619A59B594}
 	EndGlobalSection
 EndGlobal

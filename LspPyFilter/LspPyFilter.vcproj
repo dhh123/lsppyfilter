@@ -62,7 +62,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="python25_d.lib"
+				AdditionalDependencies="python27_d.lib"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="$(SolutionDir)$(ConfigurationName)"
 				GenerateDebugInformation="true"
@@ -137,7 +137,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="python25.lib"
+				AdditionalDependencies="python27.lib"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="C:\Languages\Python\2.5.1\libs"
 				GenerateDebugInformation="true"
