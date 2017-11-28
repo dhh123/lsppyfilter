@@ -398,7 +398,7 @@ int WSPAPI WSPStartup(WORD wVersion,
 
 					lpProcTable->lpWSPCleanup = WSPCleanup;
 
-					lpProcTable->lpWSPAccept = WSPAccept;
+					lpProcTable->lpWSPAccept = (LPWSPACCEPT)WSPAccept;
 					lpProcTable->lpWSPConnect = WSPConnect;
 					lpProcTable->lpWSPCloseSocket = WSPCloseSocket;
 					lpProcTable->lpWSPSocket = WSPSocket;

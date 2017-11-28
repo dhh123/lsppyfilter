@@ -1,0 +1,17 @@
+﻿  LspPyFilterProvider.cpp
+LspPyFilterProvider.cpp(654): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+LspPyFilterProvider.cpp(732): warning C4244: “return”: 从“SOCKET”转换到“int”，可能丢失数据
+LspPyFilterProvider.cpp(740): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+LspPyFilterProvider.cpp(959): warning C4996: '_WSAPROTOCOL_INFOA::szProtocol': Use WSAPROTOCOL_INFOW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(969): note: 参见“_WSAPROTOCOL_INFOA::szProtocol”的声明
+LspPyFilterProvider.cpp(1167): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+LspPyFilterProvider.cpp(1349): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+LspPyFilterProvider.cpp(1445): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+LspPyFilterProvider.cpp(1636): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+LspPyFilterProvider.cpp(1750): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+LspPyFilterProvider.cpp(1792): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+    正在创建库 C:\Users\user\Documents\lsppyfilter\x64\Release\LspPyFilterProvider.lib 和对象 C:\Users\user\Documents\lsppyfilter\x64\Release\LspPyFilterProvider.exp
+  正在生成代码
+  All 113 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  LspPyFilterProvider.vcxproj -> C:\Users\user\Documents\lsppyfilter\x64\Release\LspPyFilterProvider.dll

@@ -1,12 +1,19 @@
-﻿D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: 正在首次将属性“WindowsTargetPlatformVersion”设置为某个值，但已在“D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)”处使用了该属性。
-D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: 正在首次将属性“WindowsTargetPlatformVersion”设置为某个值，但已在“D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)”处使用了该属性。
-D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: 正在首次将属性“WindowsTargetPlatformVersion”设置为某个值，但已在“D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)”处使用了该属性。
-D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: 正在首次将属性“WindowsTargetPlatformVersion”设置为某个值，但已在“D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)”处使用了该属性。
-  ClassFactory.cpp
+﻿  ClassFactory.cpp
   LspPyFilter.cpp
   Main.cpp
   PyInstance.cpp
-  正在生成代码
-  All 253 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  已完成代码的生成
-  LspPyFilter.vcxproj -> C:\Users\user\Documents\lsppyfilter\Release\LspPyFilter.exe
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__Py_InitModule4
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__Py_BuildValue
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp___Py_NoneStruct
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyErr_SetString
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyErr_WriteUnraisable
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__Py_Finalize
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__Py_Initialize
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyArg_Parse
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyRun_SimpleStringFlags
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyErr_Clear
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyExc_TypeError
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyCallable_Check
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyArg_ParseTuple
+PyInstance.obj : error LNK2001: 无法解析的外部符号 __imp__PyEval_CallObjectWithKeywords
+C:\Users\user\Documents\lsppyfilter\Release\LspPyFilter.exe : fatal error LNK1120: 14 个无法解析的外部命令

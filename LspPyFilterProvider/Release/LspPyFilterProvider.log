@@ -1,7 +1,4 @@
-﻿D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: 正在首次将属性“WindowsTargetPlatformVersion”设置为某个值，但已在“D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)”处使用了该属性。
-D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: 正在首次将属性“WindowsTargetPlatformVersion”设置为某个值，但已在“D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)”处使用了该属性。
-D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: 正在首次将属性“WindowsTargetPlatformVersion”设置为某个值，但已在“D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)”处使用了该属性。
-  LspPyFilterProvider.cpp
+﻿  LspPyFilterProvider.cpp
 LspPyFilterProvider.cpp(959): warning C4996: '_WSAPROTOCOL_INFOA::szProtocol': Use WSAPROTOCOL_INFOW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(969): note: 参见“_WSAPROTOCOL_INFOA::szProtocol”的声明
     正在创建库 C:\Users\user\Documents\lsppyfilter\Release\LspPyFilterProvider.lib 和对象 C:\Users\user\Documents\lsppyfilter\Release\LspPyFilterProvider.exp

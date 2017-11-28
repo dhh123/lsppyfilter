@@ -1,5 +1,4 @@
-﻿D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: 正在首次将属性“WindowsTargetPlatformVersion”设置为某个值，但已在“D:\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)”处使用了该属性。
-  Processing .\ILspPyFilter.idl
+﻿  Processing .\ILspPyFilter.idl
   ILspPyFilter.idl
 .\ILspPyFilter.idl : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
